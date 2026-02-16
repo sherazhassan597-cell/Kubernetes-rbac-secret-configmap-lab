@@ -16,6 +16,7 @@ This project demonstrates implementation of Kubernetes RBAC, Secrets and ConfigM
   kubectl create secret secret secret-2
   kubectl apply -f configmap.yaml
   echo -n "pakistani1234" | base64
+  ```
   ## Key Concepts
   RBAC ensures secure access control.
   Secret store senstive data securely.
