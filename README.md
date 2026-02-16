@@ -9,6 +9,7 @@ This project demonstrates implementation of Kubernetes RBAC, Secrets and ConfigM
 - Craeted ConfigMap for application configuration
 - Verified access using kubectl commands
   ## Commands Used
+  ```bash
   kubectl create -n dev-ops-team
   kubectl create clusterrole cluster-497
   kubectl create clusterrolebinding cluster-1
